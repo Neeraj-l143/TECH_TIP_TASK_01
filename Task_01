@@ -1,0 +1,12 @@
+# Dice Roll Simulator
+
+# We will see one of the basic Python projects to simulate a die roll
+
+import random
+
+def roll_dice():
+    # Simulate a dice roll (return a random number between 1 and 6)
+    return random.randint(1, 6)
+
+# Simulate a dice roll
+print("You rolled a:" ,roll_dice())
